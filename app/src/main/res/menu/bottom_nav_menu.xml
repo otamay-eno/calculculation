@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cal001_input_fragment"
+        android:title="@string/input_fragment"
+        android:icon="@drawable/ic_baseline_create_24"/>
+    <item
+        android:id="@+id/cal005_select_date_fragment"
+        android:title="@string/calreport_fragment"
+        android:icon="@drawable/ic_baseline_incomplete_circle_24"/>
+    <item
+        android:id="@+id/cal008_barcodereport_fragment"
+        android:title="@string/barcodereport_fragment"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"/>
+</menu>

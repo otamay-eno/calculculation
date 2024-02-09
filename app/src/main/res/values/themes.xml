@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CalCalculation" parent="Theme.MaterialComponents.DayNight">
+        <!-- アクションバーの設定 -->
+        <item name="actionBarSize">40dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+
+        <!-- ウィンドウ背景色 -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!-- システムバーの文字色 -->
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- システムバーの背景色 -->
+        <item name="android:statusBarColor">@color/white</item>
+        <!-- Customize your theme here. -->
+        <!-- TabLayoutの下線やRadioButton選択時などの色 -->
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!-- 背景色の設定とタイトルカラーのスタイル設定 -->
+    <style name="CustomActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="titleTextStyle">@style/titleTextStyle</item>
+    </style>
+
+    <!-- タイトルカラーの設定 -->
+    <style name="titleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

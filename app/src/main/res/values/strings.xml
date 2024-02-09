@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">CalCalculation</string>
+
+    <!-- Navigation And Fragment name -->
+    <string name="input_fragment">入力</string>
+    <string name="calreport_fragment">レポート</string>
+    <string name="barcodereport_fragment">バーコード</string>
+
+    <!-- Common -->
+    <string name="empty_string" />
+    <string name="space_string">　</string>
+    <string name="total_cal_description">合計カロリー</string>
+    <string name="total_cal">0 kcal</string>
+    <string name="today">エラー！ここには今日の日付が表示されます</string>
+
+    <!-- CAL001 -->
+    <string name="input_button">入力する</string>
+    <string name="show_zero">0</string>
+    <string name="show_kcal">kcal</string>
+
+    <!-- CAL002 string -->
+    <string name="barcode_scan_name">スキャン</string>
+    <string name="barcode_status">バーコードをスキャン</string>
+    <string name="button_inputManually">手入力</string>
+    <string name="dialog_title">データがありません！</string>
+    <string name="dialog_sentence">このバーコードにデータを登録しますか？</string>
+    <string name="dialog_positive_button">登録する</string>
+    <string name="dialog_negative_button">戻る</string>
+    <string name="display_line">------------------------------------または------------------------------</string>
+    <string name="display_warning_text">・手入力しますか？</string>
+    <string name="display_button_text">+</string>
+
+    <!-- CAL003 -->
+    <string name="cal_input_name">カロリー登録</string>
+    <string name="cal_text">・カロリー情報を登録する</string>
+    <string name="cal_date">食べた日</string>
+
+    <!-- CAL004 -->
+    <string name="barcode_register_name">バーコード登録画面</string>
+    <string name="food_input_text">食べ物</string>
+    <string name="cal_input_text">カロリー</string>
+    <string name="barcode_top_text">・バーコード</string>
+    <string name="dialog_title_cal004">今日のカロリーに登録する？</string>
+    <string name="dialog_negative_button_cal004">戻る</string>
+
+    <!-- CAL007 -->
+    <string name="top_title">・カロリー情報を編集する</string>
+
+    <!-- CAL009 -->
+    <string name="barcode_update_name">バーコード更新画面</string>
+    <string name="display_line_2">------------------------------------------------------------------------------</string>
+    <string name="display_line_title">・更新or削除しますか？</string>
+    <string name="display_line_title2">・今日のカロリーとして追加しますか？</string>
+    <string name="update_button_text">更新</string>
+    <string name="delete_button_text">削除</string>
+    <string name="add_button_text">追加</string>
+
+</resources>
